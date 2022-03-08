@@ -3,7 +3,6 @@ This project aims to predict the genre of a track from a set of tracks obtained 
 
 # Files Required to run :
 Files required to upload for initial dataset creation are :
-
 ● raw_echonest.csv - contains features
 
 ● tracks.csv - Contains genre label , with track id
