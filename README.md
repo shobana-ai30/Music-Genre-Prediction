@@ -29,4 +29,21 @@ Install through the following steps for conda :
 
 ● conda install pydot
 
+# Dataset
+The raw dataset is collected from the Free Music Archive Dump, with a total of 106574 tracks labeled according to their track id, with features to aid the classification like acousticness, danceability, energy, instrumentalness, liveness, speechiness, tempo andvalence. It also contains 223 temporal features which captures the beat for rhythmic similarity.
+
+The full raw dataset can be downloaded here:
+
+https://drive.google.com/drive/folders/17n6RVgU_TOmgcixlFsqynmXCVqvKdVSd
+
+Our raw dataset is in csv format, with 3 files as follows:
+
+* raw_echonest.csv : various audio and temporal features provided of music tracks of
+Spotify (formerly Echonest)
+
+* genres.csv: genres listed according to id and title
+
+* tracks.csv : lists tracks according to its album with features such as track id, duration,
+number of times a track is listened to, and, of course, the genres
+
 
