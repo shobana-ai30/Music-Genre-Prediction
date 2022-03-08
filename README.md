@@ -3,11 +3,17 @@ This project aims to predict the genre of a track from a set of tracks obtained 
 
 # Files Required to run :
 Files required to upload for initial dataset creation are :
+
 ● raw_echonest.csv - contains features
+
 ● tracks.csv - Contains genre label , with track id
+
 ● Merge_Genre.csv - Cleaned file
-Change the url location as per the path of these files in your local system. 
+
+Change the url location as per the path of these files in your local system.
+
 Merge_Genre can be created at run time by uncommenting the following line :
+
 #df3.to_csv("Merge_Genre.csv", encoding='utf-8')
 
 # Modules Required :
